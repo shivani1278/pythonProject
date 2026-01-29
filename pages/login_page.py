@@ -7,7 +7,7 @@ class LoginPage:
 
     def open_login(self):
         with allure.step("Open login page"):
-            self.driver.get("https://google.com/login")
+            self.driver.get("https://google.com/")
 
 
     def login(self, user, pwd):
